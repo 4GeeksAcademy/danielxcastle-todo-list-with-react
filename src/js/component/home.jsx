@@ -39,7 +39,7 @@ const Home = () => {
 				</li>	
 				{todos.map((item, index) => (
 					<li key="" className="todo-item">
-						{index + 1})  
+						{index + 1}) &nbsp;  
 						{item} 
 						<i 
 							className="fa-solid fa-trash" 
