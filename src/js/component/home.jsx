@@ -17,6 +17,12 @@ const Home = () => {
 			<h1>My todos</h1>
 			<ul>
 				<li>
+					<button className="btn btn-primary" type="button" id="button-addon1"
+						onClick={(e) => {
+							setTodos(todos.concat(inputValue));
+							setInputValue("");
+						}}
+						>Add</button>
 					<input 
 						type="text" 
 						value={inputValue}
@@ -28,6 +34,7 @@ const Home = () => {
 						}
 						}}
 					placeholder="What do you need to do">
+						
 					</input>
 				</li>	
 				{todos.map((item, index) => (
@@ -47,7 +54,7 @@ const Home = () => {
 				))}		
 
 			</ul>
-			<div>
+			<div className="todo-tasks">
 				{todos.length} tasks left	
 			</div>
 		</div>

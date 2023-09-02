@@ -1,22 +1,39 @@
 body{
     margin-top: 100px;
+    background: grey;
+}
+.container{
+    background-color: lightgrey;
+    border-radius: .5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
 }
 ul li{
     border: 1px solid gray;
     list-style: none;
     padding: 5px;
+    background-color: white;
 }
 ul{
     padding: 0;
     margin-bottom: 0;
+    border-radius: .5rem;
 }
 h1{
     text-align: center;
 }
 input{
     border: none;
-    width: 100%;
+    width: 90%;
+    padding-left: 30px;
 }
 i{
     float: right;
+    color: red;
+}
+.todo-tasks{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-style: italic;
 }
