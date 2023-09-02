@@ -12,7 +12,7 @@ body{
 ul li{
     border: 1px solid gray;
     list-style: none;
-    padding: 5px;
+    padding: 10px;
     background-color: white;
 }
 ul{
@@ -25,7 +25,7 @@ h1{
 }
 input{
     border: none;
-    width: 90%;
+    width: 94%;
     padding-left: 30px;
 }
 i{
@@ -36,4 +36,8 @@ i{
     padding-top: 10px;
     padding-left: 10px;
     font-style: italic;
+}
+.todo-item{
+    padding-left: 30px;
+    padding-right: 30px;
 }

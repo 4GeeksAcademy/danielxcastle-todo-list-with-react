@@ -16,7 +16,7 @@ const Home = () => {
 		<div className="container">
 			<h1>My Wife Told Me To Do:</h1>
 			<ul>
-				<li>
+				<li className="input-todo">
 					<button className="btn btn-primary" type="button" id="button-addon1"
 						onClick={(e) => {
 							setTodos(todos.concat(inputValue));
@@ -38,7 +38,8 @@ const Home = () => {
 					</input>
 				</li>	
 				{todos.map((item, index) => (
-					<li key="">
+					<li key="" className="todo-item">
+						{index + 1})  
 						{item} 
 						<i 
 							className="fa-solid fa-trash" 
