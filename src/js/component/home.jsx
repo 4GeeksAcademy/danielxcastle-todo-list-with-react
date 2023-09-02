@@ -14,7 +14,7 @@ const Home = () => {
 
 	return (
 		<div className="container">
-			<h1>My todos</h1>
+			<h1>My Wife Told Me To Do:</h1>
 			<ul>
 				<li>
 					<button className="btn btn-primary" type="button" id="button-addon1"
